@@ -1,0 +1,56 @@
+{
+    "packages": [
+        {
+            "name": "liqpay/liqpay",
+            "version": "v1.2.3",
+            "version_normalized": "1.2.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/liqpay/sdk-php.git",
+                "reference": "43d8e690fe68a778d9743cfa1b8bf0061ab46538"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/liqpay/sdk-php/zipball/43d8e690fe68a778d9743cfa1b8bf0061ab46538",
+                "reference": "43d8e690fe68a778d9743cfa1b8bf0061ab46538",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "time": "2017-10-26T19:16:56+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "classmap": [
+                    "./LiqPay.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "OSL 3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Liqpay",
+                    "email": "support@liqpay.ua",
+                    "homepage": "https://www.liqpay.ua/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "SDK for Liqpay",
+            "homepage": "https://github.com/liqpay/sdk-php",
+            "keywords": [
+                "liqpay",
+                "pay"
+            ],
+            "support": {
+                "issues": "https://github.com/liqpay/sdk-php/issues",
+                "source": "https://github.com/liqpay/sdk-php/tree/master"
+            },
+            "install-path": "../liqpay/liqpay"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}

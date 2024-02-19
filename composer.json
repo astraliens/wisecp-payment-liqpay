@@ -1,0 +1,5 @@
+{
+    "require": {
+        "liqpay/liqpay": "^1.2"
+    }
+}

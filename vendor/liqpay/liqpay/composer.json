@@ -1,0 +1,25 @@
+{
+    "name":"liqpay/liqpay",
+    "type": "library",
+    "description": "SDK for Liqpay",
+    "keywords": [
+      "LiqPayModule","pay"],
+    "homepage": "https://github.com/liqpay/sdk-php",
+    "license": "OSL 3.0",
+    "authors": [
+        {
+            "name": "LiqPayModule",
+            "email": "support@liqpay.ua",
+            "homepage": "https://www.liqpay.ua/",
+            "role": "Developer"
+        }
+    ],
+    "require":{
+        "php":">=5.3.0"
+    },
+    "autoload":{
+        "classmap":[
+            "./LiqPay.php"
+        ]
+    }
+}
